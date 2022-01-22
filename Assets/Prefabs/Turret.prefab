@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4751992867185316725
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4751992867185316724}
+  - component: {fileID: 4751992867185316727}
+  - component: {fileID: 4751992867185316726}
+  m_Layer: 0
+  m_Name: Turret
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4751992867185316724
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4751992867185316725}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5, y: 26.339746, z: -12}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4751992867185316727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4751992867185316725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: 8982ec35b8974dd48965bc6cf57b508b,
+    type: 3}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 057c7dce-40b2-4174-b8be-1423f02b2e1f
+    m_ActionName: MidiDeviceActionMap/Fire[/MidiDevice/note048,/MidiDevice/note049,/MidiDevice/note050,/MidiDevice/note051,/MidiDevice/note052]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: cbfcad37-9cb7-4806-9232-0eaebf80e782
+    m_ActionName: MidiDeviceActionMap/Fire 2[/MidiDevice/note049]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 7ee8bc2b-3287-4421-8e44-771df8b2c93f
+    m_ActionName: MidiDeviceActionMap/Fire 3[/MidiDevice/note050]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 66012ecf-2d77-44a1-82ba-f79549cc7c83
+    m_ActionName: MidiDeviceActionMap/Fire 4[/MidiDevice/note051]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: d28e2caf-4a64-465e-a85b-1503726b36dc
+    m_ActionName: MidiDeviceActionMap/Fire 5[/MidiDevice/note052]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 48257310-5662-4b45-abe8-a67db2a44462
+    m_ActionName: MidiDeviceActionMap/Fire 6[/MidiDevice/note053]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 982a0ffc-9ea3-42b4-a259-3cc933b2a029
+    m_ActionName: MidiDeviceActionMap/Fire 7[/MidiDevice/note054]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: a683da0d-426e-4c6f-8211-c593e986af7a
+    m_ActionName: MidiDeviceActionMap/Fire 8[/MidiDevice/note055]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 8b6f8a34-e0cb-4d63-9a6c-fa4d01ac978f
+    m_ActionName: MidiDeviceActionMap/Fire 9[/MidiDevice/note056]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 8372a307-579f-41f2-93f2-8cf2f9b1a442
+    m_ActionName: MidiDeviceActionMap/Fire 10[/MidiDevice/note057]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: e041305b-a2cf-4819-bbc8-11a6ab98c6d4
+    m_ActionName: MidiDeviceActionMap/Fire 11[/MidiDevice/note058]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 33ac44df-844b-463d-a6cc-d80b684bc15c
+    m_ActionName: MidiDeviceActionMap/Fire 12[/MidiDevice/note059]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 92b820f3-d402-48d7-8dea-6403d766ccc4
+    m_ActionName: MidiDeviceActionMap/Fire 13[/MidiDevice/note060]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: bc912e64-a7ae-4abb-99dc-eaf986fae6e4
+    m_ActionName: MidiDeviceActionMap/Fire 14[/MidiDevice/note061]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 30cc4f83-bf01-48da-9dc4-76d6868593ac
+    m_ActionName: MidiDeviceActionMap/Fire 15[/MidiDevice/note062]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 5af1ca8d-7124-4a69-a0ef-b0158d7aed2a
+    m_ActionName: MidiDeviceActionMap/Fire 16[/MidiDevice/note063]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: e9f577eb-dfbb-4d76-aa2f-c35b9367f70a
+    m_ActionName: MidiDeviceActionMap/Fire 17[/MidiDevice/note064]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 6168b29e-34f9-41f1-b9d3-7bc38ecb0b6a
+    m_ActionName: MidiDeviceActionMap/Fire 18[/MidiDevice/note065]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 18933f74-04f9-4546-9cff-e65c9915a322
+    m_ActionName: MidiDeviceActionMap/Fire 19[/MidiDevice/note066]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: a6d738b0-b2b2-4666-9e2f-76c8d74a2a5b
+    m_ActionName: MidiDeviceActionMap/Fire 20[/MidiDevice/note067]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 56fd1a1b-fb2b-450d-af53-77544cfb11ec
+    m_ActionName: MidiDeviceActionMap/Fire 21[/MidiDevice/note068]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 20140b60-517c-482b-9235-26eaab570d1e
+    m_ActionName: MidiDeviceActionMap/Fire 22[/MidiDevice/note069]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 5d177416-9c07-45ea-99e3-d109fa0b59d2
+    m_ActionName: MidiDeviceActionMap/Fire 23[/MidiDevice/note070]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: c8b00be3-1696-4c91-86dc-479b7e511513
+    m_ActionName: MidiDeviceActionMap/Fire 24[/MidiDevice/note071]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 3cce692d-aa04-491a-badf-3d095de38ff4
+    m_ActionName: MidiDeviceActionMap/Fire 25[/MidiDevice/note072]
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: MidiDeviceControlScheme
+  m_DefaultActionMap: MidiDeviceActionMap
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
+--- !u!114 &4751992867185316726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4751992867185316725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be0617bffceb4d445ac3bcd7105f8f0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turrets: []
