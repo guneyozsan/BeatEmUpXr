@@ -1,0 +1,501 @@
+{
+    "name": "MidiDeviceInputActions",
+    "maps": [
+        {
+            "name": "MidiDeviceActionMap",
+            "id": "e1323f44-87b4-470d-9420-f0aeeef678b1",
+            "actions": [
+                {
+                    "name": "Fire0",
+                    "type": "Button",
+                    "id": "057c7dce-40b2-4174-b8be-1423f02b2e1f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Fire1",
+                    "type": "Button",
+                    "id": "cbfcad37-9cb7-4806-9232-0eaebf80e782",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Fire2",
+                    "type": "Button",
+                    "id": "7ee8bc2b-3287-4421-8e44-771df8b2c93f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Fire3",
+                    "type": "Button",
+                    "id": "66012ecf-2d77-44a1-82ba-f79549cc7c83",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Fire4",
+                    "type": "Button",
+                    "id": "d28e2caf-4a64-465e-a85b-1503726b36dc",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Fire5",
+                    "type": "Button",
+                    "id": "48257310-5662-4b45-abe8-a67db2a44462",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Fire6",
+                    "type": "Button",
+                    "id": "982a0ffc-9ea3-42b4-a259-3cc933b2a029",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Fire7",
+                    "type": "Button",
+                    "id": "a683da0d-426e-4c6f-8211-c593e986af7a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Fire8",
+                    "type": "Button",
+                    "id": "8b6f8a34-e0cb-4d63-9a6c-fa4d01ac978f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Fire9",
+                    "type": "Button",
+                    "id": "8372a307-579f-41f2-93f2-8cf2f9b1a442",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Fire10",
+                    "type": "Button",
+                    "id": "e041305b-a2cf-4819-bbc8-11a6ab98c6d4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Fire11",
+                    "type": "Button",
+                    "id": "33ac44df-844b-463d-a6cc-d80b684bc15c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Fire12",
+                    "type": "Button",
+                    "id": "92b820f3-d402-48d7-8dea-6403d766ccc4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Fire13",
+                    "type": "Button",
+                    "id": "bc912e64-a7ae-4abb-99dc-eaf986fae6e4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Fire14",
+                    "type": "Button",
+                    "id": "30cc4f83-bf01-48da-9dc4-76d6868593ac",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Fire15",
+                    "type": "Button",
+                    "id": "5af1ca8d-7124-4a69-a0ef-b0158d7aed2a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Fire16",
+                    "type": "Button",
+                    "id": "e9f577eb-dfbb-4d76-aa2f-c35b9367f70a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Fire17",
+                    "type": "Button",
+                    "id": "6168b29e-34f9-41f1-b9d3-7bc38ecb0b6a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Fire18",
+                    "type": "Button",
+                    "id": "18933f74-04f9-4546-9cff-e65c9915a322",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Fire19",
+                    "type": "Button",
+                    "id": "a6d738b0-b2b2-4666-9e2f-76c8d74a2a5b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Fire20",
+                    "type": "Button",
+                    "id": "56fd1a1b-fb2b-450d-af53-77544cfb11ec",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Fire21",
+                    "type": "Button",
+                    "id": "20140b60-517c-482b-9235-26eaab570d1e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Fire22",
+                    "type": "Button",
+                    "id": "5d177416-9c07-45ea-99e3-d109fa0b59d2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Fire23",
+                    "type": "Button",
+                    "id": "c8b00be3-1696-4c91-86dc-479b7e511513",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Fire24",
+                    "type": "Button",
+                    "id": "3cce692d-aa04-491a-badf-3d095de38ff4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6fd5aece-8f3f-447e-91b7-34fa0276b85d",
+                    "path": "<MidiDevice>/note048",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MidiDeviceControlScheme",
+                    "action": "Fire0",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "580e5a6b-a76d-4f33-8436-cccd33a9c33c",
+                    "path": "<MidiDevice>/note049",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MidiDeviceControlScheme",
+                    "action": "Fire1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3c2e7fe6-b8a3-498d-9c21-bf45827ddad1",
+                    "path": "<MidiDevice>/note050",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MidiDeviceControlScheme",
+                    "action": "Fire2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "34f612c6-d10d-4bd9-9af6-48459d09493a",
+                    "path": "<MidiDevice>/note051",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MidiDeviceControlScheme",
+                    "action": "Fire3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2ea33442-de83-42dd-9f14-0e36fcbf79e2",
+                    "path": "<MidiDevice>/note052",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MidiDeviceControlScheme",
+                    "action": "Fire4",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "21972ca8-b6bc-4703-8a29-0c22f4dbd307",
+                    "path": "<MidiDevice>/note053",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MidiDeviceControlScheme",
+                    "action": "Fire5",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cfd35748-d569-455b-8733-9b58925275e6",
+                    "path": "<MidiDevice>/note054",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MidiDeviceControlScheme",
+                    "action": "Fire6",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d1aee98e-6e13-4b9f-ab26-7b74795a43b5",
+                    "path": "<MidiDevice>/note055",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MidiDeviceControlScheme",
+                    "action": "Fire7",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f0050ead-bc82-4261-ad81-9bf048c70200",
+                    "path": "<MidiDevice>/note056",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MidiDeviceControlScheme",
+                    "action": "Fire8",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4676886a-fb88-4040-abe8-302672ce3629",
+                    "path": "<MidiDevice>/note057",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MidiDeviceControlScheme",
+                    "action": "Fire9",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5964cc79-90c6-4282-bb3d-13a991a7c722",
+                    "path": "<MidiDevice>/note058",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MidiDeviceControlScheme",
+                    "action": "Fire10",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a13bf754-f767-4d74-8749-c898cb2068a2",
+                    "path": "<MidiDevice>/note059",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MidiDeviceControlScheme",
+                    "action": "Fire11",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8894c77d-5473-4c53-8000-e1d021a752d8",
+                    "path": "<MidiDevice>/note060",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MidiDeviceControlScheme",
+                    "action": "Fire12",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c98e36c6-740e-4a83-9cdc-995bb2e988c7",
+                    "path": "<MidiDevice>/note061",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MidiDeviceControlScheme",
+                    "action": "Fire13",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c746e65a-59e0-45bc-b570-ba13d1d95a8d",
+                    "path": "<MidiDevice>/note062",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MidiDeviceControlScheme",
+                    "action": "Fire14",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d152e4a5-b7c2-4f29-978d-933267f72592",
+                    "path": "<MidiDevice>/note063",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MidiDeviceControlScheme",
+                    "action": "Fire15",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e1e5426a-6db7-46c8-852f-ae14242a8ebe",
+                    "path": "<MidiDevice>/note064",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MidiDeviceControlScheme",
+                    "action": "Fire16",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "580bb7c7-50a4-4338-a13c-51369270c669",
+                    "path": "<MidiDevice>/note065",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MidiDeviceControlScheme",
+                    "action": "Fire17",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a06177e8-5908-4908-859c-2cccb6786f57",
+                    "path": "<MidiDevice>/note066",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MidiDeviceControlScheme",
+                    "action": "Fire18",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "66c64225-bbc0-4dab-856e-e57a70be5839",
+                    "path": "<MidiDevice>/note067",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MidiDeviceControlScheme",
+                    "action": "Fire19",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1a829a50-249c-439a-83d0-604339141eee",
+                    "path": "<MidiDevice>/note068",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MidiDeviceControlScheme",
+                    "action": "Fire20",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e109d8a9-e502-4e0f-b453-72fce8965fad",
+                    "path": "<MidiDevice>/note069",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MidiDeviceControlScheme",
+                    "action": "Fire21",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6071b21e-bf91-41d0-8279-a212586ec03c",
+                    "path": "<MidiDevice>/note070",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MidiDeviceControlScheme",
+                    "action": "Fire22",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5027f092-5aaa-48e7-8192-1e6cdf21ea84",
+                    "path": "<MidiDevice>/note071",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MidiDeviceControlScheme",
+                    "action": "Fire23",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "807ed6d6-30a1-4621-88b0-95815f92d14e",
+                    "path": "<MidiDevice>/note072",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MidiDeviceControlScheme",
+                    "action": "Fire24",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "MidiDeviceControlScheme",
+            "bindingGroup": "MidiDeviceControlScheme",
+            "devices": [
+                {
+                    "devicePath": "<MidiDevice>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
