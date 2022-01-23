@@ -2,9 +2,9 @@
 /shelf/
 /workspace.xml
 # Rider ignored files
-/modules.xml
-/.idea.MelodefenseVr.iml
+/.idea.BeatEmUpXr.iml
 /contentModel.xml
+/modules.xml
 /projectSettingsUpdater.xml
 # Editor-based HTTP Client requests
 /httpRequests/
