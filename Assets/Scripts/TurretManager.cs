@@ -3,10 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
+using Random = System.Random;
 
 public class TurretManager : MonoBehaviour
 {
+    [SerializeField] private List<AudioClip> shootSounds;
+    [SerializeField] private AudioSource audioSource;
     [SerializeField] private GameObject bulletPrefab;
+    [SerializeField] private GameObject[] enemyPrefabs;
     [SerializeField] private Material whiteMaterial;
     [SerializeField] private Material blackMaterial;
     [SerializeField] private List<Transform> turrets;
@@ -17,6 +21,8 @@ public class TurretManager : MonoBehaviour
     
     private Vector3 defaultLocalScale;
     private Vector3 defaultLocalPosition;
+
+    private float nextTick = 0;
 
     private void Awake()
     {
@@ -66,95 +72,101 @@ public class TurretManager : MonoBehaviour
             cooldownIndicator.localScale = new Vector3(defaultLocalScale.x, defaultLocalScale.y, scaleZ);
             cooldownIndicator.localPosition = new Vector3(defaultLocalPosition.x, defaultLocalPosition.y, localPositionZ);
         }
-    }
 
+        EnemySpawnerUpdate();
+    }
+    
+    void EnemySpawnerUpdate()
+    {
+        nextTick -= Time.deltaTime;
+        if (nextTick < 0)
+        {
+            nextTick = UnityEngine.Random.Range(1f, 2f);
+
+            int amount = UnityEngine.Random.Range(1, 3);
+            for (int i = 0; i < amount ; ++i)
+            {
+                int nextEnemyIndex = UnityEngine.Random.Range(0, 14);
+                Transform enemy = Instantiate(enemyPrefabs[nextEnemyIndex % 5]).transform;
+                enemy.position = turrets[nextEnemyIndex].position + Vector3.forward * 6;
+                enemy.parent = null;
+            }
+        }
+
+    }
+    
     private void OnFire0()
     {
-        Debug.Log("Fire 0");
         Fire(0, true);
     }
 
     private void OnFire2()
     {
-        Debug.Log("Fire 2");
         Fire(1, true);
     }
     
     private void OnFire4()
     {
-        Debug.Log("Fire 4");
         Fire(2, true);
     }
     
     private void OnFire5()
     {
-        Debug.Log("Fire 5");
         Fire(3, true);
     }
     
     private void OnFire7()
     {
-        Debug.Log("Fire 7");
         Fire(4, true);
     }
     
     private void OnFire9()
     {
-        Debug.Log("Fire 9");
         Fire(5, true);
     }
     
     private void OnFire11()
     {
-        Debug.Log("Fire 11");
         Fire(6, true);
     }
     
     private void OnFire12()
     {
-        Debug.Log("Fire 12");
         Fire(7, true);
     }
     
     private void OnFire14()
     {
-        Debug.Log("Fire 14");
         Fire(8, true);
     }
     
     private void OnFire16()
     {
-        Debug.Log("Fire 16");
         Fire(9, true);
     }
     
     private void OnFire17()
     {
-        Debug.Log("Fire 17");
         Fire(10, true);
     }
     
     private void OnFire19()
     {
-        Debug.Log("Fire 19");
         Fire(11, true);
     }
     
     private void OnFire21()
     {
-        Debug.Log("Fire 21");
         Fire(12, true);
     }
     
     private void OnFire23()
     {
-        Debug.Log("Fire 23");
         Fire(13, true);
     }
     
     private void OnFire24()
     {
-        Debug.Log("Fire 24");
         Fire(14, true);
     }
 
@@ -170,6 +182,10 @@ public class TurretManager : MonoBehaviour
         // Reset countdown.
         cooldowns[turretIndex] = cooldownSeconds;
 
+        // SFX
+        audioSource.clip = shootSounds[turretIndex];
+        audioSource.Play();
+        
         // Display indicator.
         Transform cooldownIndicator = cooldownIndicators[turretIndex];
         cooldownIndicator.localScale = defaultLocalScale;

@@ -7,8 +7,11 @@ public class BulletMovement : MonoBehaviour
     
     private Vector3 initialPosition;
 
-    private void Start() =>
+    private void Start()
+    {
         initialPosition = transform.position;
+        Destroy(gameObject, 10);
+    }
 
     private void Update()
     {
@@ -21,11 +24,6 @@ public class BulletMovement : MonoBehaviour
         void DestroyIfMaxDistance()
         {
             Vector3 deltaPosition = transform.position - initialPosition;
-
-            if (deltaPosition.magnitude > maxDistance)
-            {
-                Destroy(gameObject);
-            }
         }
     }
 }
