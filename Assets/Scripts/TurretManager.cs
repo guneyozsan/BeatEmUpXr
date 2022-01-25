@@ -74,25 +74,25 @@ public class TurretManager : MonoBehaviour
         }
 
         EnemySpawnerUpdate();
-    }
-    
-    void EnemySpawnerUpdate()
-    {
-        nextTick -= Time.deltaTime;
-        if (nextTick < 0)
+        
+        void EnemySpawnerUpdate()
         {
-            nextTick = UnityEngine.Random.Range(1f, 2f);
-
-            int amount = UnityEngine.Random.Range(1, 3);
-            for (int i = 0; i < amount ; ++i)
+            nextTick -= Time.deltaTime;
+            
+            if (nextTick < 0)
             {
-                int nextEnemyIndex = UnityEngine.Random.Range(0, 14);
-                Transform enemy = Instantiate(enemyPrefabs[nextEnemyIndex % 5]).transform;
-                enemy.position = turrets[nextEnemyIndex].position + Vector3.forward * 6;
-                enemy.parent = null;
+                nextTick = UnityEngine.Random.Range(1f, 2f);
+
+                int amount = UnityEngine.Random.Range(1, 3);
+                for (int i = 0; i < amount ; ++i)
+                {
+                    int nextEnemyIndex = UnityEngine.Random.Range(0, 14);
+                    Transform enemy = Instantiate(enemyPrefabs[nextEnemyIndex % 5]).transform;
+                    enemy.position = turrets[nextEnemyIndex].position + Vector3.forward * 6;
+                    enemy.parent = null;
+                }
             }
         }
-
     }
     
     private void OnFire0()
